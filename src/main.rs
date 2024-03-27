@@ -15,7 +15,7 @@ fn main() {
 
 fn send_notification(message: &str) {
     // Create a new notification
-    let mut notification = Notification::new()
+    let notification = Notification::new()
         .summary("Rust Notification")
         .body(message)
         .icon("dialog-information")
